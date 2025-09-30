@@ -18,3 +18,5 @@ while len(lotto) < 6:
 
 
 print(lotto)
+
+
