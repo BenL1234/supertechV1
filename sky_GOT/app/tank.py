@@ -40,3 +40,8 @@ class Tank:
     def take_damage(self, damage):
         self._health -= damage
         return None
+
+    # Some SPECIAL methods..
+    # Example of OPERATOR OVERLOADING
+    def __add__(self, other):
+        return self._health + other._health
